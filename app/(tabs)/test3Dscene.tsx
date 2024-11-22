@@ -6,7 +6,7 @@ import { Renderer } from "expo-three";
 // @ts-ignore
 import * as THREE from "three";
 
-export default function sample_scene() {
+export default function test3Dscene() {
     // @ts-ignore
     const onContextCreate = async (gl) => {
         // Create a WebGLRenderer
