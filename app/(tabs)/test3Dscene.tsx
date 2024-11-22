@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, {  } from "react";
 import { View } from "react-native";
 import { GLView } from "expo-gl";
 import { Renderer } from "expo-three";
