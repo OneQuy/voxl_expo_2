@@ -40,6 +40,8 @@ export class VoxyScene {
 
     // Initialize clock
     this.clock = new THREE.Clock();
+
+    console.log('did new VoxyScene() successfully', gl.drawingBufferWidth, gl.drawingBufferHeight);
   }
 
   /**
