@@ -1,14 +1,13 @@
 import React, {  } from "react";
 import { View } from "react-native";
-import { GLView } from "expo-gl";
+import { ExpoWebGLRenderingContext, GLView } from "expo-gl";
 import { Renderer } from "expo-three";
 
 // @ts-ignore
 import * as THREE from "three";
 
 export default function test3Dscene() {
-    // @ts-ignore
-    const onContextCreate = (gl) => {
+    const onContextCreate = (gl: ExpoWebGLRenderingContext) => {
         const renderer = new Renderer({ gl });
 
         // @ts-ignore
